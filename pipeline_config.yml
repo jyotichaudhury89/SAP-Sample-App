@@ -22,12 +22,13 @@
 ### General project setup
 general:
 
-runStage:
- FRONTEND_UNIT_TESTS: true
 
 ### Step-specific configuration
 steps:
-
+ setupCommonPipelineEnvironment:
+  runStage:
+   BACKEND_INTEGRATION_TESTS: false
+   FRONTEND_INTEGRATION_TESTS: true
 
 ### Stage-specific configuration
 stages:
