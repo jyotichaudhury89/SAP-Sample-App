@@ -22,6 +22,8 @@
 ### General project setup
 general:
 
+runStage:
+ FRONTEND_UNIT_TESTS: true
 
 ### Step-specific configuration
 steps:
