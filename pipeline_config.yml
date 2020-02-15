@@ -27,7 +27,7 @@ general:
 steps:
  setupCommonPipelineEnvironment:
   runStage:
-   BACKEND_INTEGRATION_TESTS: false
+   BACKEND_INTEGRATION_TESTS: true
    FRONTEND_INTEGRATION_TESTS: true
 
 ### Stage-specific configuration
