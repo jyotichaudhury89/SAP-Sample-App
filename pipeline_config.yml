@@ -32,6 +32,15 @@ steps:
 
 ### Stage-specific configuration
 stages:
+ artifactDeployment:
+  nexus:
+    version: nexus3
+    url: f1145e57.ngrok.io/
+    repository: first-app
+    credentialsId: 'nexus'
+    additionalClassifiers:
+      - type: jar
+        classifier: classes
 #  backendIntegrationTests:
 #    credentials:
 #      - alias: 'mySystemAlias'
