@@ -1,1 +1,1 @@
-test3
+ --cov-fail-under 80
